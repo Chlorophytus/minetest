@@ -38,7 +38,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 	#include <windows.h>
 #endif
 
-#if defined(_ICONV_H_) && (defined(__FreeBSD__) || defined(__NetBSD__) || \
+#if defined(_ICONV_H_) && (defined(__NetBSD__) || \
 	defined(__OpenBSD__) || defined(__DragonFly__))
 	#define BSD_ICONV_USED
 #endif
